@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Practice Test Automation Table - Playwright Framework
 
 This project contains an end-to-end Playwright automation framework for validating the filtering and sorting functionality of the [Practice Test Automation table](https://practicetestautomation.com/practice-test-table/). The framework uses TypeScript, the Page Object Model (POM), a custom reporter for historical run tracking, and a report generator script that produces an HTML summary.
@@ -71,3 +72,7 @@ How to run now
 Parallel: npm run test:parallel
 Sequential: npm run test:sequential
 Single test: npx playwright test tests/test_name_.spec.ts
+=======
+# checkmate-takehome-playwright-AnjaliTyagi
+Playwright-based end-to-end automation framework developed as part of the Checkmate take-home assignment, validating filtering, sorting, and navigation functionality with a scalable Page Object Model design.
+>>>>>>> dea724a849d983313d32ca37e9d6a1fddf91f15f
