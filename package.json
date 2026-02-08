@@ -1,0 +1,18 @@
+{
+  "name": "practice-table-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for Practice Test Automation table",
+  "scripts": {
+    "test:parallel": "npx playwright test",
+    "test:sequential": "npx playwright test --workers=1",
+    "report:generate": "node ./scripts/generate-report.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "typescript": "^5.3.3",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

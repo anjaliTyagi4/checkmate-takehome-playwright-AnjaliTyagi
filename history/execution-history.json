@@ -1,0 +1,16 @@
+[
+  {
+    "testName": "Test Case 1: Language filter → Java",
+    "status": "passed",
+    "duration": 1500,
+    "timestamp": "2026-02-06T12:00:00.000Z",
+    "screenshotPath": "reports/screenshots/test1-sample.png"
+  },
+  {
+    "testName": "Test Case 2: Level filter → Beginner only",
+    "status": "failed",
+    "duration": 1700,
+    "timestamp": "2026-02-06T12:00:05.000Z",
+    "screenshotPath": "reports/screenshots/test2-sample.png"
+  }
+]

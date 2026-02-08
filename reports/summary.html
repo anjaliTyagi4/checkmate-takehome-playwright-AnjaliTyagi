@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Execution Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    .passed { color: green; }
+    .failed { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Execution History Report</h1>
+  <p>Total Passed: <span class="passed">1</span>, Total Failed: <span class="failed">1</span></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Test Name</th>
+        <th>Status</th>
+        <th>Duration</th>
+        <th>Timestamp</th>
+        <th>Evidence</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Test Case 1: Language filter → Java</td>
+      <td class="passed">passed</td>
+      <td>1.50s</td>
+      <td>2026-02-06T12:00:00.000Z</td>
+      <td><a href="../../reports/screenshots/test1-sample.png">View</a></td>
+    </tr>
+<tr>
+      <td>Test Case 2: Level filter → Beginner only</td>
+      <td class="failed">failed</td>
+      <td>1.70s</td>
+      <td>2026-02-06T12:00:05.000Z</td>
+      <td><a href="../../reports/screenshots/test2-sample.png">View</a></td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>
